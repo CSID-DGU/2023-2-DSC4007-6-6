@@ -1,0 +1,159 @@
+{
+    "os": "Linux-5.10.0-1055-oem-x86_64-with-glibc2.27",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-11-11T13:58:07.740801",
+    "startedAt": "2023-11-11T13:58:06.853268",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/home/irteam/junghye-dcloud-dir/dscapstone/ResNext/main.py",
+    "codePath": "main.py",
+    "host": "3068b64872e5",
+    "username": "irteam",
+    "executable": "/home/irteam/anaconda3/envs/pixt/bin/python",
+    "cpu_count": 12,
+    "cpu_count_logical": 24,
+    "cpu_freq": {
+        "current": 1007.2308750000001,
+        "min": 1000.0,
+        "max": 3500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1000.249,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.459,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 999.404,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.177,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.038,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.464,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.475,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.371,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.63,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.541,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.406,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.913,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.649,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.501,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.0,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.785,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.625,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.359,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.138,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.482,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.459,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.433,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.029,
+            "min": 1000.0,
+            "max": 3500.0
+        },
+        {
+            "current": 1000.073,
+            "min": 1000.0,
+            "max": 3500.0
+        }
+    ],
+    "disk": {
+        "total": 1838.7526741027832,
+        "used": 205.34733963012695
+    },
+    "gpu": "Quadro RTX 5000",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Quadro RTX 5000",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 30.992286682128906
+    }
+}
