@@ -24,17 +24,16 @@ class ESNAModel(nn.Module):
     def __init__(self, pretrained=True):
         super(ESNAModel, self).__init__()
         self.backbone = EfficientNetLite3Model()
-        # Assuming EfficientNet uses a global average pooling followed by a linear layer
+       
         if isinstance(self.backbone.backbone.classifier, nn.Sequential):
-            # If the classifier is a Sequential block, access the last Linear layer
             num_features = self.backbone.backbone.classifier[-1].in_features
         elif isinstance(self.backbone.backbone.classifier, nn.Linear):
-            # Directly access the in_features if the classifier is a single Linear layer
+            
             num_features = self.backbone.backbone.classifier.in_features
         else:
             raise TypeError("Unsupported classifier type in EfficientNetLite3 model")
         
-        # Replace the classifier with an identity layer
+        
         self.backbone.backbone.classifier = Identity()
         self.dropout = nn.Dropout(Config['DR_RATE'])
         self.rnn = nn.LSTM(num_features, Config['RNN_HIDDEN_SIZE'], Config['RNN_LAYERS'])
